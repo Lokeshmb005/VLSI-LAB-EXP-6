@@ -1,6 +1,7 @@
 **SCHEMATIC ENTRY AND SIMULATION OF CMOS INVERTER, CMOS NAND and CMOS NOR USING CADENCE TOOL**
 
 **AIM:**
+
 To design and simulate the CMOS inverter and observe the DC and transient responses using cadence tool.
 
 **APPARATUS REQUIRED:**
@@ -8,7 +9,7 @@ To design and simulate the CMOS inverter and observe the DC and transient respon
 1.	Laptop with MobaXterm
 2.	Cadence tool
 **PROCEDURE**
-SCHEMATIC ENTRY:
+
 **Creating a new library:**
 1.	In the library manager, execute File - New library. The new library form appears.
 2.	In the new library form, type ‘my design lib’ in the name section.
@@ -19,11 +20,13 @@ SCHEMATIC ENTRY:
 7.	If you right click on the ‘my design lib’ and select properties, you will find that gpdk045 library is attached as techlib to ‘my design lib’.
 
 **Creating a schematic cell view:**
+
 1.	In the CIW or library manager, execute file – new – cell viw.
 2.	Setup the new file form as follows, Do not edit the library path file and the above might be different from the path shown in your form.
 3.	Click ok when done the above setting. A black schematic window for the inverter design appears.
 
 **Adding components to schematic:**
+
 1.	In the inverter schematic window, click the instance fixed menu icon to display the add instance form.
 2.	Click on the browse button. This opens up a library browser from which you can select components and the symbol view.
 3.	After you complete the add instance form move your cursor to the schematic window and click left to place a component.
@@ -33,11 +36,13 @@ SCHEMATIC ENTRY:
  ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/ff2e4de9-cd56-4227-8ce4-c9887921b4f2)
 
 **Adding pins to schematic:**
+
 1.	Click the pin fixed menu icon in the schematic window. You can execute create pin or press ‘p’.
 2.	Add pin form appears. Type the following in the ADD pin form in the next order leaving space between the pin.
 3.	Select cancel and then the schematic window enter window file or press the f bind key.
    
 **Adding wires to schematic:**
+
 1.	Click the wire (narrow) icon in the schematic window.
 2.	In the schematic window click on a pin of one of your components as the first point for your wiring. A diamond shape appears over the starting point of this wire.
 3.	Follow the prompts at the bottom of design window and click left on the destination point for your wire. A wire is routed between the source and destination points.
@@ -47,6 +52,7 @@ Saving the design:
 	Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
 **BUILDING THE INVERTER TEST DESIGN:**
+
 Creating the inverter test cell view:
 1.	In the CIW or library manager, execute file – new – cell view.
 2.	Setup the newfile as shown below.
@@ -60,6 +66,7 @@ Creating the inverter test cell view:
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/4bf6bbe3-c876-45b8-8d0c-681a2591aa43)
 
 **ANALOG SIMULATION WITH SPECTRA:**
+
 Starting the simulation environment:
 1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears.
 Choosing a simulator:
@@ -83,10 +90,12 @@ e.	Select the DC voltage in the select window parameter and click in the form st
 f.	Select the enable button and click apply and then click ok.
 
 **Selecting output for plotting:**
+
 1.	Execute the o/p’s to be plotted  -select on sschematic in the simulation window.
 2.	Follow the prompt at the bottom. Click on the o/p net vout input vin of the inverter. Press esc with the cursor after selecting.
 
 **Running the simulation:**
+
 1.	Execute the simulation Netlist and run in the simulation window to start the simulation on the icon. This will create the netlist as well as run the simulation.
 2.	When the simulation finishes the transient and DC plots automatically will be popped up along with netlist.
  
@@ -95,6 +104,7 @@ f.	Select the enable button and click apply and then click ok.
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/fa4259ee-1da9-4989-9aef-af6634dbfd3e)
 
 ***CMOS NAND GATE***
+
 **NAND SCHEMATIC**
 
  ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/30bbf675-116a-4910-9195-37c198f40890)
@@ -107,7 +117,8 @@ f.	Select the enable button and click apply and then click ok.
  
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/9b180d74-92c7-42aa-8652-30e7fbe89260)
 
-***CMOS NOR GATE***
+**CMOS NOR GATE**
+
 **NOR SCHEMATIC**
 
  ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/3ec2637c-b359-430d-9642-10b92ebfdedb)
