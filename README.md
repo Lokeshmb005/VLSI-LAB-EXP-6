@@ -46,25 +46,20 @@ SCHEMATIC ENTRY:
 Saving the design:
 	Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
-BUILDING THE INVERTER TEST DESIGN:
+**BUILDING THE INVERTER TEST DESIGN:**
 Creating the inverter test cell view:
 1.	In the CIW or library manager, execute file – new – cell view.
 2.	Setup the newfile as shown below.
 3.	Click ok when done. A blank schematic window for the inverter test design appears.
 4.	Using the components list and properties/ comments in this table build the inverter test schematic.
-LIBRARY NAME	CELL VIEW NAME	PROPERTIES/COMMENTS
-My design lib	Inverter	Symbol
-Analog lib	Vpulse	Voltage1 = 0, Voltage2 = 1.8, delay Time = 0,
-Rise time=Fall time=1ns
-Period=20ns
-Analog lib	Vdc, gnd	Vdc = 1.8v
 5.	Add the above components using create – instance or by pressing I.
 6.	Click the wire (narrow) icon and wire your schematic.
 7.	Click create wire name or press c to name the i/p (vsin) and output wires as in below schematic.
 8.	Click on the check and save icon to save the design.
  
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/4bf6bbe3-c876-45b8-8d0c-681a2591aa43)
 
-ANALOG SIMULATION WITH SPECTRA:
+**ANALOG SIMULATION WITH SPECTRA:**
 Starting the simulation environment:
 1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears.
 Choosing a simulator:
@@ -87,45 +82,44 @@ d.	Double click the select Vpulse source or Type V0 (capital V zero).
 e.	Select the DC voltage in the select window parameter and click in the form start and stop voltages are 0 to 1.8.
 f.	Select the enable button and click apply and then click ok.
 
-Selecting output for plotting:
+**Selecting output for plotting:**
 1.	Execute the o/p’s to be plotted  -select on sschematic in the simulation window.
 2.	Follow the prompt at the bottom. Click on the o/p net vout input vin of the inverter. Press esc with the cursor after selecting.
 
-Running the simulation:
+**Running the simulation:**
 1.	Execute the simulation Netlist and run in the simulation window to start the simulation on the icon. This will create the netlist as well as run the simulation.
 2.	When the simulation finishes the transient and DC plots automatically will be popped up along with netlist.
  
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/0cfb0830-cee0-40e2-ba57-b04aed38a170)
 
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/fa4259ee-1da9-4989-9aef-af6634dbfd3e)
 
+***CMOS NAND GATE***
+**NAND SCHEMATIC**
+
+ ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/30bbf675-116a-4910-9195-37c198f40890)
+
+**NAND TEST CELL VIEW**
+
+ ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/0a7baba8-dd19-45e6-8a97-e0b7be9462c8)
+
+**NAND SIMULATION WITH SPECTRA**
  
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/9b180d74-92c7-42aa-8652-30e7fbe89260)
 
+***CMOS NOR GATE***
+**NOR SCHEMATIC**
 
+ ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/3ec2637c-b359-430d-9642-10b92ebfdedb)
 
+**NOR TEST CELL VIEW**
 
-CMOS NAND GATE
-NAND SCHEMATIC
- 
-NAND TEST CELL VIEW
- 
-NAND SIMULATION WITH SPECTRA
- 
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/cd64ffe6-7ddb-47e3-8f66-256e15c62e45)
 
+**NOR SIMULATION WITH SPECTRA**
 
+![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-6/assets/159941167/40828e25-0474-43c1-8e49-0d297ae6a11a)
 
+**RESULT:**
 
-
-
-
-
-CMOS NOR GATE
-NOR SCHEMATIC
- 
-
-
-
-
-
-NOR TEST CELL VIEW
- 
-NOR SIMULATION WITH SPECTRA
- 
+The Implementation of 2 input NOR gate using CMOS  is constructed and waveforms are verified.
