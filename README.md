@@ -134,4 +134,4 @@ f.	Select the enable button and click apply and then click ok.
 
 **RESULT:**
 
-The Implementation of 2 input NOR gate using CMOS  is constructed and waveforms are verified.
+The Implementation of CMOS inverter, CMOS NAND and CMOS NOR gate waveforms are verified.
