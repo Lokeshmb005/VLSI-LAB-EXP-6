@@ -8,6 +8,7 @@ To design and simulate the CMOS inverter and observe the DC and transient respon
  
 1.	Laptop with MobaXterm
 2.	Cadence tool
+	
 **PROCEDURE**
 
 **Creating a new library:**
